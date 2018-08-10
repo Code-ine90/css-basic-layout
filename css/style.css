@@ -65,7 +65,7 @@ a:active {
   background-image: url('../img/mountains.jpg');
   background-repeat: no-repeat;
   background-position: center; */
-  background: #ffa949 url('../img/mountains.jpg') no-repeat center; 
+  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -135,4 +135,19 @@ a:active {
 
 .arrow {
   width: 50px;
+}
+
+/* Floated Columns ------------------ */
+
+.resorts,
+.tips {
+  width: 46.5%;
+}
+
+.tips {
+  float: right;
+}
+
+.resorts {
+  float: left;
 }
