@@ -64,6 +64,7 @@ a:active {
   padding-top: 170px;
   background-image: url('../img/mountains.jpg');
   background-size: 40%;
+  background-repeat: no-repeat;
 }
 
 .title {
