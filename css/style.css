@@ -94,7 +94,6 @@ a:active {
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
-  overflow: auto;
 }
 
 .callout {
@@ -146,9 +145,17 @@ a:active {
 }
 
 .tips {
-  float: right;
+  float: left;
 }
 
 .resorts {
-  float: left;
+  float: right;
+}
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
